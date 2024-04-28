@@ -109,7 +109,7 @@ buttons = [
     ],
 ] 
 
-HELP_STRINGS = """ *Hello There! Here you can get all of the help commands!
+HELP_STRINGS = """ *Hello There! Here you can get all of the help commands! [ ](https://telegra.ph/file/53e273d3d5bb3b4e8cdfd.mp4)
 - /donate - Steps to Donate Bot Owner 
 - /help (modulename): you also get the about the module.
 - /settings - in this work group only chat!
@@ -118,12 +118,16 @@ Below Click the module you know about module commands!*
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """*don't need donate I'm free for everyone add your group's in @VegetaRobot this is my donate🙂*"""
-HELP_IMG= "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/1cbafa58dda18528f9e0c.mp4"
+HELP_IMG= "https://telegra.ph/file/d6a7fe2afb4a981ddd4da.jpg"
+GROUPSTART_IMG= "https://telegra.ph/file/53e273d3d5bb3b4e8cdfd.mp4"
 
 VEGETA_IMG = ( "https://telegra.ph/file/b3637a13ecf49a2a95c40.jpg",
                "https://telegra.ph/file/ac654426c9f5ecaf9758b.jpg",
-               "https://telegra.ph/file/d6a7fe2afb4a981ddd4da.jpg",)       
+               "https://telegra.ph/file/d6a7fe2afb4a981ddd4da.jpg",
+               "https://telegra.ph/file/5d430750c921957935013.jpg",
+               "https://telegra.ph/file/56e18c74e523207b07ec0.jpg",
+               "https://telegra.ph/file/f4ce99f9bb83094cd9fc3.jpg",
+               "https://telegra.ph/file/0fd2b9ace3b88feccd8b6.jpg",)       
 
 IMPORTED = {}
 MIGRATEABLE = []
