@@ -98,12 +98,12 @@ buttons = [
                             url=f"t.me/{BOT_USERNAME}?startgroup=true"),
                     ],
                      [
-                       InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"),
+                       InlineKeyboardButton(text="", url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(text="UPDATES",  url=f"https://t.me/{UPDATES_CHANNEL}"),
                     ],
                    [
-                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/nandhabots"),
-                       InlineKeyboardButton(text="LOGS", url=f"https://t.me/vegetalogs"),
+                       InlineKeyboardButton(text="", url=f"https://t.me/nandhabots"),
+                       InlineKeyboardButton(text="", url=f"https://t.me/vegetalogs"),
                 ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
          ),
     ],
