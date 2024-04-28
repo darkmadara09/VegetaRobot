@@ -529,12 +529,6 @@ Group admins/group owners do not need these commands.
  ╠ `/adddrank`*:* Adds a user to D Rank Hunter
  ╚ `Add dev doesnt exist, devs should know how to add themselves`
 
- ╔ *Broadcast: (Bot owner only)*
- ╠  *Note:* This supports basic markdown
- ╠ `/broadcastall`*:* Broadcasts everywhere
- ╠ `/broadcastusers`*:* Broadcasts too all users
- ╚ `/broadcastgroups`*:* Broadcasts too all groups
-
  ╔ *Groups Info:*
  ╠ `/groups`*:* List the groups with Name, ID, members count as a txt
  ╠ `/leave <ID>`*:* Leave the group, ID must have hyphen
@@ -552,13 +546,6 @@ Group admins/group owners do not need these commands.
  ╠ `/gban <id> <reason>`*:* Gbans the user, works by reply too
  ╠ `/ungban`*:* Ungbans the user, same usage as gban
  ╚ `/gbanlist`*:* Outputs a list of gbanned users
-
- ╔ *Module loading:*
- ╠ `/listmodules`*:* Lists names of all modules
- ╠ `/load modulename`*:* Loads the said module to 
- ╠   memory without restarting.
- ╠ `/unload modulename`*:* Loads the said module from
- ╚   memory without restarting.memory without restarting the bot 
 
  ╔ *Remote commands:*
  ╠ `/rban user group`*:* Remote ban
