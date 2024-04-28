@@ -109,7 +109,7 @@ buttons = [
     ],
 ] 
 
-HELP_STRINGS = """ *Hello There! Here you can get all of the help commands! [ ](https://telegra.ph/file/53e273d3d5bb3b4e8cdfd.mp4)
+HELP_STRINGS = """ *Hello There! Here you can get all of the help commands! [ ㅤ](https://telegra.ph/file/53e273d3d5bb3b4e8cdfd.mp4)
 - /donate - Steps to Donate Bot Owner 
 - /help (modulename): you also get the about the module.
 - /settings - in this work group only chat!
