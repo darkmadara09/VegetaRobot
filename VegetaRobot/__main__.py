@@ -211,7 +211,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="help_back")]]
                     ),
                 )
 
@@ -244,8 +244,8 @@ def start(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="SUPPORT", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="UPDATES", url=f"t.me/{UPDATES_CHANNEL}"),
+                  InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
+                  InlineKeyboardButton(text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"t.me/{UPDATES_CHANNEL}"),
                   ]
                 ]
             ),
@@ -334,7 +334,7 @@ def help_button(update, context):
                 text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="⬅ ʙᴀᴄᴋ", callback_data="help_back"),
+                    [[InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="help_back"),
                       InlineKeyboardButton(text="", callback_data="vegeta_back")]]
                 ),
             )
@@ -443,7 +443,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="help_back")]]
             ),
         )
 
