@@ -325,7 +325,7 @@ def help_button(update, context):
             module = mod_match.group(1)
             message = update.effective_message
             text = (
-                "\n[ ](https://telegra.ph/file/56e18c74e523207b07ec0.jpg) ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ - *{}*\n".format(
+                "\n[ ](https://telegra.ph/file/d9b147abf20ced6873a8a.jpg) ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ - *{}*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
