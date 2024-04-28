@@ -529,10 +529,6 @@ Group admins/group owners do not need these commands.
  ╠ `/adddrank`*:* Adds a user to D Rank Hunter
  ╚ `Add dev doesnt exist, devs should know how to add themselves`
 
- ╔ *Ping:*
- ╠ `/ping`*:* gets ping time of bot to telegram server
- ╚ `/pingall`*:* gets all listed ping times
-
  ╔ *Broadcast: (Bot owner only)*
  ╠  *Note:* This supports basic markdown
  ╠ `/broadcastall`*:* Broadcasts everywhere
@@ -552,17 +548,10 @@ Group admins/group owners do not need these commands.
  ╠ `/notice`*:* Removes user from blacklist
  ╚ `/ignoredlist`*:* Lists ignored users
 
- ╔ *Module loading:*
- ╠ `/listmodules`*:* Prints modules and their names
- ╠ `/unload <name>`*:* Unloads module dynamically
- ╚ `/load <name>`*:* Loads module
-
- ╔ *Speedtest:*
- ╚ `/speedtest`*:* Runs a speedtest and gives you 2 options to choose from, text or image output
-
  ╔ *Global Bans:*
- ╠ `/gban user reason`*:* Globally bans a user
- ╚ `/ungban user reason`*:* Unbans the user from the global bans list
+ ╠ `/gban <id> <reason>`*:* Gbans the user, works by reply too
+ ╠ `/ungban`*:* Ungbans the user, same usage as gban
+ ╚ `/gbanlist`*:* Outputs a list of gbanned users
 
  ╔ *Module loading:*
  ╠ `/listmodules`*:* Lists names of all modules
@@ -581,9 +570,6 @@ Group admins/group owners do not need these commands.
  ╔ *Windows self hosted only:*
  ╠ `/reboot`*:* Restarts the bots service
  ╚ `/gitpull`*:* Pulls the repo and then restarts the bots service
-
- ╔ *Chatbot:* 
- ╚ `/listaichats`*:* Lists the chats the chatmode is enabled in
  
  ╔ *Debugging and Shell:* 
  ╠ `/debug <on/off>`*:* Logs commands to updates.txt
@@ -595,10 +581,5 @@ Group admins/group owners do not need these commands.
  ╠ `/dbcleanup`*:* Removes deleted accs and groups from db
  ╚ `/py`*:* Runs python code
  
- ╔ *Global Bans:*
- ╠ `/gban <id> <reason>`*:* Gbans the user, works by reply too
- ╠ `/ungban`*:* Ungbans the user, same usage as gban
- ╚ `/gbanlist`*:* Outputs a list of gbanned users
-
 Visit @{SUPPORT_CHAT} for more information.
 """
