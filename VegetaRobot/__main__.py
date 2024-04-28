@@ -81,30 +81,26 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
-
-~~ *I'm made with Saiyans blood* ~~
-
-~ *Wanna see my commands*[❗]({})
-*below click the help button!* ~
-
-──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
+PM_START_TEXT = """ ──────「𝐒ʜᴀᴅᴏᴡ 𝐌ᴏɴᴀʀᴄʜ」──────
+▸ ɪ ᴀᴍ ᴀ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ғʀᴏᴍ sᴏʟᴏ ʟᴇᴠᴇʟɪɴɢ.
+▸ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ᴀɪ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴇᴀsɪʟʏ !
+▸ ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴏʀ sᴇɴᴅ /help ᴛᴏ ᴄʜᴇᴄᴋ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.
 """ 
 
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ ADD VEGETA TO YOUR GROUP ☑",
+                            text="➕ 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➕",
                             url=f"t.me/{BOT_USERNAME}?startgroup=true"),
                     ],
                      [
-                       InlineKeyboardButton(text="", url=f"https://t.me/{SUPPORT_CHAT}"),
-                       InlineKeyboardButton(text="UPDATES",  url=f"https://t.me/{UPDATES_CHANNEL}"),
+                       InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/{SUPPORT_CHAT}"),
+                       InlineKeyboardButton(text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦",  url=f"https://t.me/{UPDATES_CHANNEL}"),
                     ],
                    [
                        InlineKeyboardButton(text="", url=f"https://t.me/nandhabots"),
                        InlineKeyboardButton(text="", url=f"https://t.me/vegetalogs"),
-                ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
+                ],[ InlineKeyboardButton(text="👾 𝗛𝗘𝗟𝗣 👾", callback_data="help_back"
          ),
     ],
 ] 
@@ -325,7 +321,7 @@ def help_button(update, context):
             module = mod_match.group(1)
             message = update.effective_message
             text = (
-                "\nᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ - *{}*\n".format(
+                "\n[ ](https://telegra.ph/file/56e18c74e523207b07ec0.jpg) ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ - *{}*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -335,7 +331,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="⬅ ʙᴀᴄᴋ", callback_data="help_back"),
-                      InlineKeyboardButton(text="⬅ ʜᴏᴍᴇ", callback_data="vegeta_back")]]
+                      InlineKeyboardButton(text="", callback_data="vegeta_back")]]
                 ),
             )
 
@@ -668,7 +664,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","[SUPER SAIYAN VEGETA IS BACK](https://telegra.ph/file/d3db0babad0d1729c5f59.jpg)", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","[ʙᴇ sᴛʀᴏɴɢ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʟɪᴠᴇ !](https://telegra.ph/file/53e273d3d5bb3b4e8cdfd.mp4)", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
