@@ -536,24 +536,6 @@ Group admins/group owners do not need these commands.
  ╠ `/getchats`*:* Gets a list of group names the user has been seen in. Bot owner only
  ╚ `/ginfo username/link/ID`*:* Pulls info panel for entire group
 
- ╔ *Access control:* 
- ╠ `/ignore`*:* Blacklists a user from 
- ╠  using the bot entirely
- ╠ `/notice`*:* Removes user from blacklist
- ╚ `/ignoredlist`*:* Lists ignored users
-
- ╔ *Global Bans:*
- ╠ `/gban <id> <reason>`*:* Gbans the user, works by reply too
- ╠ `/ungban`*:* Ungbans the user, same usage as gban
- ╚ `/gbanlist`*:* Outputs a list of gbanned users
-
- ╔ *Remote commands:*
- ╠ `/rban user group`*:* Remote ban
- ╠ `/runban user group`*:* Remote un-ban
- ╠ `/rpunch user group`*:* Remote punch
- ╠ `/rmute user group`*:* Remote mute
- ╚ `/runmute user group`*:* Remote un-mute
-
  ╔ *Windows self hosted only:*
  ╠ `/reboot`*:* Restarts the bots service
  ╚ `/gitpull`*:* Pulls the repo and then restarts the bots service
@@ -567,6 +549,4 @@ Group admins/group owners do not need these commands.
  ╠ `/clearlocals`*:* As the name goes
  ╠ `/dbcleanup`*:* Removes deleted accs and groups from db
  ╚ `/py`*:* Runs python code
- 
-Visit @{SUPPORT_CHAT} for more information.
 """
