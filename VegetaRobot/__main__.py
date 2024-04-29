@@ -516,7 +516,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="𝗕𝗔𝗖𝗞",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
